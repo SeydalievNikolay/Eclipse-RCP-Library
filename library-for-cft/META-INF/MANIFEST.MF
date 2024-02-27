@@ -1,0 +1,14 @@
+Manifest-Version:  1.0
+Bundle-ManifestVersion:  2
+Bundle-Name: RCP-library-for-cft
+Bundle-SymbolicName: library-for-cft;singleton:=true
+Bundle-Version:  1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.apache.felix.scr,
+ org.eclipse.equinox.event,
+ org.junit;bundle-version="4.13.2"
+Automatic-Module-Name: library.for.cft
+Bundle-ClassPath: lib/postgresql-42.7.2.jar,
+ .
+Bundle-RequiredExecutionEnvironment: JavaSE-17
